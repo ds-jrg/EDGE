@@ -1,0 +1,32 @@
+{
+  "Run_1": {
+    "id1instance": {
+      "best_concept": "OWLObjectMaxCardinality(property=OWLObjectProperty(IRI('http://swrc.ontoware.org/ontology#','publication')),2,filler=OWLObjectSomeValuesFrom(property=OWLObjectProperty(IRI('http://swrc.ontoware.org/ontology#','hasProject')),filler=OWLObjectSomeValuesFrom(property=OWLObjectProperty(IRI('http://swrc.ontoware.org/ontology#','financedBy')),filler=OWLObjectMinCardinality(property=OWLObjectProperty(IRI('http://swrc.ontoware.org/ontology#','finances')),8,filler=OWLClass(IRI('http://swrc.ontoware.org/ontology#','Project'))))))",
+      "concept_length": 11
+    }
+  },
+  "Run_2": {
+    "id1instance": {
+      "best_concept": "OWLObjectAllValuesFrom(property=OWLObjectProperty(IRI('http://swrc.ontoware.org/ontology#','worksAtProject')),filler=OWLObjectMaxCardinality(property=OWLObjectProperty(IRI('http://swrc.ontoware.org/ontology#','projectInfo')),9,filler=OWLClass(IRI('http://swrc.ontoware.org/ontology#','Publication'))))",
+      "concept_length": 6
+    }
+  },
+  "Run_3": {
+    "id1instance": {
+      "best_concept": "OWLObjectAllValuesFrom(property=OWLObjectProperty(IRI('http://swrc.ontoware.org/ontology#','worksAtProject')),filler=OWLObjectAllValuesFrom(property=OWLObjectProperty(IRI('http://swrc.ontoware.org/ontology#','projectInfo')),filler=OWLObjectMaxCardinality(property=OWLObjectProperty(IRI('http://swrc.ontoware.org/ontology#','describesProject')),2,filler=OWLClass(IRI('http://swrc.ontoware.org/ontology#','Project')))))",
+      "concept_length": 8
+    }
+  },
+  "Run_4": {
+    "id1instance": {
+      "best_concept": "OWLObjectAllValuesFrom(property=OWLObjectProperty(IRI('http://swrc.ontoware.org/ontology#','worksAtProject')),filler=OWLObjectMaxCardinality(property=OWLObjectProperty(IRI('http://swrc.ontoware.org/ontology#','projectInfo')),9,filler=OWLClass(IRI('http://swrc.ontoware.org/ontology#','Publication'))))",
+      "concept_length": 6
+    }
+  },
+  "Run_5": {
+    "id1instance": {
+      "best_concept": "OWLObjectAllValuesFrom(property=OWLObjectProperty(IRI('http://swrc.ontoware.org/ontology#','worksAtProject')),filler=OWLObjectAllValuesFrom(property=OWLObjectProperty(IRI('http://swrc.ontoware.org/ontology#','projectInfo')),filler=OWLObjectSomeValuesFrom(property=OWLObjectProperty(IRI('http://swrc.ontoware.org/ontology#','isAbout')),filler=OWLObjectMinCardinality(property=OWLObjectProperty(IRI('http://swrc.ontoware.org/ontology#','isWorkedOnBy')),3,filler=OWLClass(IRI('http://swrc.ontoware.org/ontology#','Person'))))))",
+      "concept_length": 10
+    }
+  }
+}

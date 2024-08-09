@@ -1,0 +1,32 @@
+{
+  "Run_1": {
+    "carcino": {
+      "best_concept": "OWLObjectMaxCardinality(property=OWLObjectProperty(IRI('http://dl-learner.org/carcinogenesis#','hasStructure')),5,filler=OWLObjectUnionOf((OWLClass(IRI('http://dl-learner.org/carcinogenesis#','Ester')), OWLClass(IRI('http://dl-learner.org/carcinogenesis#','Ar_halide')))))",
+      "concept_length": 6
+    }
+  },
+  "Run_2": {
+    "carcino": {
+      "best_concept": "OWLObjectUnionOf((OWLObjectMaxCardinality(property=OWLObjectProperty(IRI('http://dl-learner.org/carcinogenesis#','hasAtom')),5,filler=OWLClass(IRI('http://dl-learner.org/carcinogenesis#','Carbon-10'))), OWLDataHasValue(property=OWLDataProperty(IRI('http://dl-learner.org/carcinogenesis#','drosophila_rt')),value=OWLLiteral(False))))",
+      "concept_length": 8
+    }
+  },
+  "Run_3": {
+    "carcino": {
+      "best_concept": "OWLObjectMaxCardinality(property=OWLObjectProperty(IRI('http://dl-learner.org/carcinogenesis#','hasAtom')),5,filler=OWLClass(IRI('http://dl-learner.org/carcinogenesis#','Carbon-10')))",
+      "concept_length": 4
+    }
+  },
+  "Run_4": {
+    "carcino": {
+      "best_concept": "OWLObjectMaxCardinality(property=OWLObjectProperty(IRI('http://dl-learner.org/carcinogenesis#','hasAtom')),5,filler=OWLClass(IRI('http://dl-learner.org/carcinogenesis#','Carbon-10')))",
+      "concept_length": 4
+    }
+  },
+  "Run_5": {
+    "carcino": {
+      "best_concept": "OWLObjectUnionOf((OWLObjectSomeValuesFrom(property=OWLObjectProperty(IRI('http://dl-learner.org/carcinogenesis#','hasAtom')),filler=OWLClass(IRI('http://dl-learner.org/carcinogenesis#','Bromine'))), OWLObjectSomeValuesFrom(property=OWLObjectProperty(IRI('http://dl-learner.org/carcinogenesis#','hasBond')),filler=OWLClass(IRI('http://dl-learner.org/carcinogenesis#','Bond-7'))), OWLObjectAllValuesFrom(property=OWLObjectProperty(IRI('http://dl-learner.org/carcinogenesis#','hasStructure')),filler=OWLClass(IRI('http://dl-learner.org/carcinogenesis#','Methyl'))), OWLDataHasValue(property=OWLDataProperty(IRI('http://dl-learner.org/carcinogenesis#','micronuc_m')),value=OWLLiteral(False)), OWLDataHasValue(property=OWLDataProperty(IRI('http://dl-learner.org/carcinogenesis#','cytogen_ca')),value=OWLLiteral(True))))",
+      "concept_length": 19
+    }
+  }
+}

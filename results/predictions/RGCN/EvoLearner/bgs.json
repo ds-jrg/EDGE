@@ -1,0 +1,32 @@
+{
+  "Run_1": {
+    "lithogenesis": {
+      "best_concept": "OWLObjectIntersectionOf((OWLObjectMaxCardinality(property=OWLObjectProperty(IRI('http://data.bgs.ac.uk/ref/Lexicon/','hasObsoleteEquivalent')),3,filler=OWLClass(IRI('http://www.w3.org/2002/07/owl#','Thing'))), OWLObjectSomeValuesFrom(property=OWLObjectProperty(IRI('http://data.bgs.ac.uk/ref/Lexicon/','hasLithologyComponent')),filler=OWLClass(IRI('http://www.w3.org/2002/07/owl#','Thing')))))",
+      "concept_length": 8
+    }
+  },
+  "Run_2": {
+    "lithogenesis": {
+      "best_concept": "OWLObjectIntersectionOf((OWLObjectMaxCardinality(property=OWLObjectProperty(IRI('http://data.bgs.ac.uk/ref/Lexicon/','hasLithogenesis')),1,filler=OWLClass(IRI('http://www.w3.org/2002/07/owl#','Thing'))), OWLObjectMaxCardinality(property=OWLObjectProperty(IRI('http://data.bgs.ac.uk/ref/Lexicon/','hasObsoleteEquivalent')),2,filler=OWLClass(IRI('http://www.w3.org/2002/07/owl#','Thing')))))",
+      "concept_length": 9
+    }
+  },
+  "Run_3": {
+    "lithogenesis": {
+      "best_concept": "OWLObjectIntersectionOf((OWLObjectMaxCardinality(property=OWLObjectProperty(IRI('http://data.bgs.ac.uk/ref/Lexicon/','hasObsoleteEquivalent')),3,filler=OWLClass(IRI('http://www.w3.org/2002/07/owl#','Thing'))), OWLObjectMaxCardinality(property=OWLObjectProperty(IRI('http://data.bgs.ac.uk/ref/Lexicon/','hasLithogenesis')),1,filler=OWLClass(IRI('http://www.w3.org/2002/07/owl#','Thing')))))",
+      "concept_length": 9
+    }
+  },
+  "Run_4": {
+    "lithogenesis": {
+      "best_concept": "OWLObjectIntersectionOf((OWLObjectSomeValuesFrom(property=OWLObjectProperty(IRI('http://data.bgs.ac.uk/ref/Lexicon/','hasLithologyComponent')),filler=OWLClass(IRI('http://www.w3.org/2004/02/skos/core#','Concept'))), OWLObjectMaxCardinality(property=OWLObjectProperty(IRI('http://data.bgs.ac.uk/ref/Lexicon/','hasObsoleteEquivalent')),1,filler=OWLClass(IRI('http://www.w3.org/2002/07/owl#','Thing')))))",
+      "concept_length": 8
+    }
+  },
+  "Run_5": {
+    "lithogenesis": {
+      "best_concept": "OWLObjectMaxCardinality(property=OWLObjectProperty(IRI('http://data.bgs.ac.uk/ref/Lexicon/','hasObsoleteEquivalent')),3,filler=OWLClass(IRI('http://www.w3.org/2002/07/owl#','Thing')))",
+      "concept_length": 4
+    }
+  }
+}

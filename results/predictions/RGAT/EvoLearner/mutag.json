@@ -1,0 +1,32 @@
+{
+  "Run_1": {
+    "carcino": {
+      "best_concept": "OWLObjectUnionOf((OWLObjectMaxCardinality(property=OWLObjectProperty(IRI('http://dl-learner.org/carcinogenesis#','hasStructure')),6,filler=OWLClass(IRI('http://www.w3.org/2002/07/owl#','Thing'))), OWLDataHasValue(property=OWLDataProperty(IRI('http://dl-learner.org/carcinogenesis#','cytogen_ca')),value=OWLLiteral(True)), OWLObjectMaxCardinality(property=OWLObjectProperty(IRI('http://dl-learner.org/carcinogenesis#','hasBond')),9,filler=OWLClass(IRI('http://www.w3.org/2002/07/owl#','Thing'))), OWLObjectSomeValuesFrom(property=OWLObjectProperty(IRI('http://dl-learner.org/carcinogenesis#','hasAtom')),filler=OWLClass(IRI('http://dl-learner.org/carcinogenesis#','Carbon-22')))))",
+      "concept_length": 17
+    }
+  },
+  "Run_2": {
+    "carcino": {
+      "best_concept": "OWLObjectMaxCardinality(property=OWLObjectProperty(IRI('http://dl-learner.org/carcinogenesis#','hasStructure')),10,filler=OWLObjectComplementOf(OWLClass(IRI('http://dl-learner.org/carcinogenesis#','Cyanate'))))",
+      "concept_length": 5
+    }
+  },
+  "Run_3": {
+    "carcino": {
+      "best_concept": "OWLObjectMaxCardinality(property=OWLObjectProperty(IRI('http://dl-learner.org/carcinogenesis#','hasStructure')),4,filler=OWLObjectUnionOf((OWLClass(IRI('http://dl-learner.org/carcinogenesis#','Methyl')), OWLClass(IRI('http://dl-learner.org/carcinogenesis#','Ketone')))))",
+      "concept_length": 6
+    }
+  },
+  "Run_4": {
+    "carcino": {
+      "best_concept": "OWLObjectMaxCardinality(property=OWLObjectProperty(IRI('http://dl-learner.org/carcinogenesis#','hasAtom')),1,filler=OWLObjectUnionOf((OWLClass(IRI('http://dl-learner.org/carcinogenesis#','Sulfur-74')), OWLClass(IRI('http://dl-learner.org/carcinogenesis#','Copper-96')), OWLClass(IRI('http://dl-learner.org/carcinogenesis#','Carbon-16')))))",
+      "concept_length": 8
+    }
+  },
+  "Run_5": {
+    "carcino": {
+      "best_concept": "OWLObjectMaxCardinality(property=OWLObjectProperty(IRI('http://dl-learner.org/carcinogenesis#','hasAtom')),5,filler=OWLClass(IRI('http://dl-learner.org/carcinogenesis#','Chlorine-93')))",
+      "concept_length": 4
+    }
+  }
+}

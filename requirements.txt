@@ -1,0 +1,16 @@
+torch==2.3.1
+torchdata
+tqdm==4.66.1
+networkx==3.2.1
+matplotlib==3.8.2
+owlapy==0.1.0
+urllib3==2.1.0
+pandas==2.1.3
+rdflib==7.0.0
+prettytable==3.9.0
+numpy==1.26.2
+isort==5.12.0
+scikit-learn==1.3.2
+ontolearn==0.6.1
+ipywidgets
+pydantic
