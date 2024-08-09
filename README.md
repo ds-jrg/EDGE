@@ -198,4 +198,4 @@ Explanations for Node Classifiers on Knowledge Graphs},
 ```
 
 ## Contact Us
-For any queries or collaborations, please contact ```rupezzz@mail.uni-paderborn.de``` . If you have found any bugs raise an Issue or  if want to contribute, open a new feature branch and create a Pull Request.
+For any queries or collaborations, please contact ```rupezzz@mail.uni-paderborn.de``` or ```heindorf@upb.de``` . If you have found any bugs raise an Issue or  if want to contribute, open a new feature branch and create a Pull Request.
